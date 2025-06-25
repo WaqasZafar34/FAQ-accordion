@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: rgb(214, 187, 214);
+    padding-bottom: 100px;
+    width: 100%;
+
+}
+
+
+
+.background img {
+    width: 100%;
+}
+
+.border{
+    border: 1px solid white;
+    margin-left: 260px;
+    margin-right: 260px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    bottom: 100px;
+
+}
+
+
+.starimg img {
+    width: 30px;
+    padding-right: 15px;
+}
+
+.starimg {
+    display: flex;
+}
+
+.faq-questions img {
+    width: 30px; 
+
+}
+
+.answer {
+    display: none;
+    color: rgb(134, 149, 162);
+    margin-bottom: 20px;
+}
+
+.answer.show {
+    display: block;
+}
+
+.minus {
+    display: none;
+    
+
+}
+
+button.active .minus {
+    display: inline;
+    
+}
+
+button.active .plus {
+    display: none;
+    
+}
+
+
+.faq-questions {
+    display: flex;
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.questions button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    border-top: 1px solid;
+    border-color: rgb(219, 230, 240);
+}
+
+.attribution{
+    padding-top: 30px;
+}
