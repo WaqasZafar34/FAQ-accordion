@@ -13,7 +13,7 @@ This is my solution to the [FAQ accordion challenge on Frontend Mentor](https://
 - Live Site URL: [https://waqaszafar34.github.io/FAQ-accordion/]
 - Solution URL: [https://github.com/your-username/faq-accordion]
 
-## My process
+
 
 ### Built with
 
